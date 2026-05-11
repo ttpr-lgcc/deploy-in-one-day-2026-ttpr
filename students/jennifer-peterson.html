@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jennifer Peterson — Aspiring Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="hero">
+      <nav class="nav">
+        <span class="nav__logo">&lt;JP /&gt;</span>
+        <div class="nav__links">
+          <a href="#about">About</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <button id="theme-toggle" aria-label="Toggle light and dark mode">
+            🌙
+          </button>
+        </div>
+      </nav>
+
+      <div class="hero__content">
+        <div class="hero__copy">
+          <div class="hero__eyebrow">Aspiring software engineer</div>
+          <h1 class="hero__name">Jennifer Peterson</h1>
+
+          <p class="hero__tagline">
+            Cybersecurity-driven student building modern, secure web experiences
+            with polished design and technical rigor.
+          </p>
+
+          <div class="hero__badges">
+            <span>Secure by design</span>
+            <span>Responsive interfaces</span>
+            <span>Practical engineering</span>
+          </div>
+
+          <div class="hero__actions">
+            <a
+              class="button hero__cta"
+              href="https://jennifer-peterson-portfolio-site.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              View my live portfolio
+            </a>
+            <a class="button button--secondary" href="#projects">
+              See featured work
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <picture class="hero__photo-wrapper">
+            <source srcset="Jennifer-O-Peterson.jpeg" type="image/jpeg" />
+            <img
+              class="hero__photo"
+              src="Jennifer-O-Peterson.jpeg"
+              alt="Portrait of Jennifer Peterson"
+              width="320"
+              height="320"
+            />
+          </picture>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT ME SECTION -->
+      <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+          Hi! I'm Jennifer Peterson, a software development student with a
+          strong interest in cybersecurity, backend engineering, and full stack
+          web development. I enjoy building applications that are both
+          functional and secure while continuing to grow my skills in
+          JavaScript, React, Node.js, PostgreSQL, and Python.
+        </p>
+
+        <p>
+          Through internships, fellowships, and personal projects, I have worked
+          on full stack applications, authentication systems, backend APIs, and
+          responsive user interfaces. I enjoy learning new technologies, solving
+          problems, and creating projects that improve the user experience.
+        </p>
+        <p>
+          Outside of coding, I enjoy traveling to different countries, trying
+          new foods, and watching well-crafted horror films. These interests
+          help me stay curious, think in cinematic detail, and bring subtle
+          atmosphere to clean engineering.
+        </p>
+
+        <div class="about__highlights">
+          <div class="about__highlight">
+            <strong>Security-minded engineering</strong>
+            <p>
+              Hands-on cybersecurity labs, secure practices, and practical
+              defensive thinking.
+            </p>
+          </div>
+          <div class="about__highlight">
+            <strong>Modern interface design</strong>
+            <p>
+              Clear visual hierarchy, polished spacing, and accessible
+              interactions.
+            </p>
+          </div>
+          <div class="about__highlight">
+            <strong>Continuous learning</strong>
+            <p>
+              College coursework, internship experience, and self-led labs fuel
+              rapid growth.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOBBIES SECTION -->
+      <section id="hobbies" class="section">
+        <h2>Hobbies & Interests</h2>
+        <p>Beyond coding, here are some things that inspire me:</p>
+        <div class="hobbies-grid">
+          <div class="hobby-card">
+            <i class="fas fa-plane"></i>
+            <h3>Traveling</h3>
+            <p>Exploring new places and cultures around the world.</p>
+          </div>
+          <div class="hobby-card">
+            <i class="fas fa-utensils"></i>
+            <h3>Culinary Adventures</h3>
+            <p>Trying new foods and experimenting with recipes.</p>
+          </div>
+          <div class="hobby-card">
+            <i class="fas fa-gamepad"></i>
+            <h3>Video Games</h3>
+            <p>
+              Playing strategy and story-driven games that sharpen systems
+              thinking.
+            </p>
+          </div>
+          <div class="hobby-card">
+            <i class="fas fa-ghost"></i>
+            <h3>Horror Films</h3>
+            <p>Enjoying thrilling movies and storytelling.</p>
+          </div>
+          <div class="hobby-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Cybersecurity Labs</h3>
+            <p>Hands-on challenges to sharpen security skills.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <p>Technologies and tools I've worked with:</p>
+
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (ES6)</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>PostgreSQL</li>
+          <li>Firebase</li>
+          <li>Tailwind CSS</li>
+          <li>Material UI</li>
+          <li>Git &amp; GitHub</li>
+          <li>Postman</li>
+          <li>JWT Authentication</li>
+          <li>Responsive Design</li>
+          <li>Secure API Design</li>
+        </ul>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+
+      <section id="projects" class="section">
+        <h2>Featured Work</h2>
+
+        <p>
+          Selected projects that combine modern software engineering, practical
+          security, and polished user experiences.
+        </p>
+        <!-- ROOTS AND RECIPES -->
+        <div id="projects-grid" class="projects">
+          <a
+            href="https://github.com/JenniferPeterson1203/Roots-and-Recipes-Server"
+            target="_blank"
+          >
+            <article class="project-card">
+              <h3>Roots and Recipes</h3>
+
+              <p>
+                A full stack recipe sharing application with voice and image
+                input features designed to improve accessibility and user
+                interaction.
+              </p>
+
+              <p>
+                Built with JavaScript, Tailwind CSS, Firebase, PostgreSQL,
+                Material UI, and the OpenAI API.
+              </p>
+            </article>
+          </a>
+          <!-- JOURNEEJOTS -->
+          <a
+            href="https://github.com/JenniferPeterson1203/JourneeJots-backend"
+            target="_blank"
+          >
+            <article class="project-card">
+              <h3>JourneeJots</h3>
+
+              <p>
+                A secure travel journaling and budgeting application with
+                protected login sessions and expense tracking features.
+              </p>
+
+              <p>
+                Built using React, Vite, Tailwind CSS, SQL, and JWT
+                authentication.
+              </p>
+            </article>
+          </a>
+
+          <article class="project-card">
+            <h3>Zoom Integrated Survey System</h3>
+
+            <p>
+              Developed during my software engineering internship to automate
+              survey collection and feedback management for live Zoom sessions.
+            </p>
+
+            <p>
+              Built with React, Node.js, and PostgreSQL using backend APIs and
+              admin dashboard functionality.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>The best ways to reach me:</p>
+            <ul class="contact">
+                <li>📧 <a href="Jenniferbushpeterson@gmail.com">Email</a></li>
+                <li>🐙 <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+                <li>💼 <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+            </ul>
+        </section> -->
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <p>The best ways to reach me:</p>
+
+        <ul class="contact">
+          <li>
+            <a href="mailto:Jenniferbushpeterson@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              Jenniferbushpeterson@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://jennifer-peterson-portfolio-site.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-solid fa-globe"></i>
+              Live portfolio site
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/yourgithubusername"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://linkedin.com/in/yourlinkedinusername"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Jennifer Peterson. Built from scratch.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
